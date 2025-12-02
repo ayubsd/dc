@@ -1,6 +1,5 @@
 %{
 #include <stdio.h>
-
 int char_count = 0;
 int line_count = 0;
 %}
@@ -20,4 +19,5 @@ int main() {
 
 int yywrap() {
     return 1;
+
 }
